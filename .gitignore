@@ -1,3 +1,9 @@
-*
-!index.html
-!.gitignore
+node_modules/
+.env
+.env.*
+!.env.example
+qr_output/
+*.zip
+*:Zone.Identifier
+.kombai/
+submissions.json
