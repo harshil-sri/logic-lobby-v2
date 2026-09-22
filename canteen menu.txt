@@ -1,0 +1,274 @@
+## Kirparam
+
+**Samosa's**
+
+* Aloo Samosa: 15
+
+* Chowmein Samosa: 25
+
+
+**Snacks**
+
+
+
+* Pao Bhaji: 90
+
+
+* Cholle Kulche: 70
+
+
+* Cholle Bhature: 90
+
+
+
+**Burgers**
+
+* Veg. Burger: 50
+
+
+* Cheese Burger: 70
+
+
+* Paneer Burger: 70
+
+
+* Paneer Cheese Burger: 85
+
+
+* Veg. Deluxe Burger: 95
+
+
+
+
+
+
+**Rolls**
+
+* Spring Roll: 35
+
+
+* Crispy Spring Roll: 65
+
+
+**Pasta**
+
+* Red Sauce Pasta: 110
+
+
+* White Sauce Pasta: 120
+
+
+* Mix Sauce Pasta: 130
+
+
+
+**Fries**
+
+* French Fries: 70
+
+
+* Peri-Peri Fries: 90
+
+
+* Tandoori Fries: 100
+
+
+* Cheese Fries: 110
+
+
+* Tandoori Cheese Fries: 120
+
+
+* Peri-Peri Cheese Fries: 130
+
+
+* Peri-Peri Tandoori Cheese Fries: 140
+
+
+## Delicious Grounds
+
+
+**North Indian**
+
+* Rajma Chawal: 100/-
+
+
+* Chole Chawal: 100/-
+
+
+* Kadhi Chawal: 100/-
+
+
+* Pav Bhaji: 100/-
+
+
+
+**Burger & Fries**
+
+* Veg Burger: 50/-
+
+
+* Cheese Burger: 70/-
+
+
+* American Burger: 60/-
+
+
+* Afgani Burger: 70/-
+
+
+* Tandoori Burgers: 80/-
+
+
+* French Fries: 90/-
+
+
+* Peri Peri Fries: 100/-
+
+
+* Cheese Fries: 130/-
+
+
+* Tandoori Fries: 130/-
+
+
+* Veg Burger + Peri Peri Fries: 130/-
+
+
+* Veg Burger + Peri Peri Fries + Cake: 140/-
+
+
+
+**Soya Chaap**
+
+* Veg. Chap Stick: 35/-
+
+
+* Spl. KFC Fried Chap: 120/-
+
+
+* Spl. Malai Chaap Tikka: 140/-
+
+
+
+---
+
+## Exotica
+
+**Hot Coffee**
+
+* Americano: ₹ 50
+
+
+* Cappuccino: ₹ 50
+
+
+* Black Coffee: ₹ 40
+
+
+* Latte: ₹ 50
+
+
+* Hot Chocolate: ₹ 50
+
+
+* Mochaccino: ₹ 60
+
+
+
+**Ice Blended**
+
+* Cold Americano: ₹ 50
+
+
+* Cold Coffee Fresh: ₹ 90
+
+
+* Hazelnut Coffee: ₹ 120
+
+
+* Irish Coffee: ₹ 120
+
+
+* Caramel Coffee: ₹ 120
+
+
+* Mochaccino Cold: ₹ 120
+
+
+
+**Ice Cream Milshakes**
+
+* Chocolate: ₹ 100
+
+
+* Kitkat: ₹ 100
+
+
+* Oreo: ₹ 100
+
+
+* Butterscotch: ₹ 90
+
+
+* Vanilla: ₹ 90
+
+
+* Apple: ₹ 90
+
+
+* Mango: ₹ 90
+
+
+* Strawberry: ₹ 90
+
+
+* Kiwi: ₹ 90
+
+
+* Pineapple: ₹ 90
+
+
+* Protein Shake: ₹ 170
+
+
+
+**Chilling Coolers**
+
+* Thandai: ₹ 90
+
+
+* Shikanji: ₹ 60
+
+
+
+**Mocktails**
+
+* Mint Mojito: ₹ 70
+
+
+* Blue Mint: ₹ 70
+
+
+* Green Apple: ₹ 70
+
+
+* Watermelon: ₹ 70
+
+
+* Apple Twist: ₹ 70
+
+
+* Peach: ₹ 70
+
+
+* Passion Fruit: ₹ 70
+
+
+* Strawberry: ₹ 70
+
+
+* Blueberry: ₹ 70
+
+
+* Lemon Soda: ₹ 60
