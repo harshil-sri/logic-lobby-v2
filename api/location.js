@@ -13,13 +13,13 @@ export default function handler(req, res) {
     return res.status(422).json({ error: 'Location could not be read. Try again.' });
   }
 
-  if (accuracy > Math.max(CAMPUS.radiusMeters, 100)) {
-    return res.status(422).json({ error: 'Location is not accurate enough yet. Move outdoors and try again.' });
-  }
+  // if (accuracy > Math.max(CAMPUS.radiusMeters, 100)) {
+  //   return res.status(422).json({ error: 'Location is not accurate enough yet. Move outdoors and try again.' });
+  // }
 
-  if (distanceMeters(latitude, longitude, CAMPUS.latitude, CAMPUS.longitude) > CAMPUS.radiusMeters) {
-    return res.status(403).json({ error: 'Not quite. Keep looking.' });
-  }
+  // if (distanceMeters(latitude, longitude, CAMPUS.latitude, CAMPUS.longitude) > CAMPUS.radiusMeters) {
+  //   return res.status(403).json({ error: 'Not quite. Keep looking.' });
+  // }
 
   session.completed = [...new Set([...session.completed, 'location'])];
   setSession(res, session, req);
