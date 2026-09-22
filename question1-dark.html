@@ -1,0 +1,201 @@
+<!DOCTYPE html><html class="dark" lang="en"><head><title>Question 1 — The Diagnostic (Night Edition)</title><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-tertiary":"#ffffff","on-tertiary-fixed":"#1c1c17","secondary-container":"#24221e","surface-bright":"#181715","primary-container":"#d97757","on-background":"#eae8e1","surface-container-highest":"#33302a","tertiary-fixed":"#e5e2da","surface-dim":"#161513","on-surface":"#f5f4ed","on-tertiary-container":"#2b2b26","on-secondary-fixed":"#1e1b17","primary":"#d97757","surface-container-lowest":"#121110","on-primary-fixed-variant":"#7a2f15","surface-container-high":"#282520","on-surface-variant":"#a6a49c","on-tertiary-fixed-variant":"#474741","secondary":"#9e9b91","background":"#161513","on-primary":"#ffffff","on-primary-container":"#ffffff","inverse-surface":"#f5f4ed","primary-fixed":"#ffdbd0","tertiary-fixed-dim":"#c8c6bf","surface-container":"#201e1a","secondary-fixed-dim":"#ccc5be","on-primary-fixed":"#390b00","inverse-on-surface":"#1b1c18","on-error-container":"#93000a","surface-variant":"#24221e","surface":"#181715","outline-variant":"#38352f","on-error":"#ffffff","on-secondary-container":"#66625c","inverse-primary":"#ffb59e","error":"#e07a5f","on-secondary":"#ffffff","secondary-fixed":"#e8e1da","surface-tint":"#d97757","primary-fixed-dim":"#ffb59e","outline":"#78756e","error-container":"#ffdad6","tertiary":"#78756e","on-secondary-fixed-variant":"#4a4641","tertiary-container":"#38352f","surface-container-low":"#181715"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"margin-mobile":"1.25rem","space-md":"1rem","gutter":"1.5rem","space-xl":"3rem","space-lg":"1.75rem","space-xs":"0.25rem","space-sm":"0.5rem","gutter-mobile":"1rem","margin":"3.5rem"},"fontFamily":{"headline-md":["Outfit"],"headline-sm":["Outfit"],"body-md":["Outfit"],"body-sm":["Outfit"],"display-md":["Outfit"],"body-lg":["Outfit"],"display-lg":["Outfit"],"headline-lg":["Outfit"],"label-sm":["Outfit"],"display-lg-mobile":["Outfit"],"display-md-mobile":["Outfit"],"label-md":["Outfit"]},"fontSize":{"headline-md":["22px",{"lineHeight":"28px","letterSpacing":"-0.015em","fontWeight":"500"}],"headline-sm":["18px",{"lineHeight":"24px","letterSpacing":"-0.01em","fontWeight":"500"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.005em","fontWeight":"400"}],"display-md":["40px",{"lineHeight":"46px","letterSpacing":"-0.025em","fontWeight":"500"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"-0.005em","fontWeight":"400"}],"display-lg":["56px",{"lineHeight":"60px","letterSpacing":"-0.035em","fontWeight":"600"}],"headline-lg":["28px",{"lineHeight":"34px","letterSpacing":"-0.02em","fontWeight":"500"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.06em","fontWeight":"500"}],"display-lg-mobile":["38px",{"lineHeight":"42px","letterSpacing":"-0.03em","fontWeight":"600"}],"display-md-mobile":["30px",{"lineHeight":"36px","letterSpacing":"-0.02em","fontWeight":"500"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"500"}]}}}}</script></head><body class="bg-[#181715] text-[#F5F4ED] font-body-md text-body-md antialiased min-h-screen selection:bg-[#D97757]/30 selection:text-[#F5F4ED]"><main class="min-h-screen w-full px-margin-mobile md:px-margin py-margin"><div class="flex flex-col w-full">
+<!-- Folio Header -->
+<header class="flex flex-col md:flex-row md:items-center md:justify-between pb-space-lg mb-space-xl transition-colors duration-300">
+<!-- Left Metadata: Folio Index & Geocoordinates -->
+<div class="flex flex-wrap items-baseline gap-x-space-md gap-y-1">
+<span class="font-label-sm text-label-sm tracking-widest text-[#D97757] uppercase font-medium">INDEX 02 // QUESTION 01</span>
+<span class="font-label-sm text-label-sm text-[#78756E] tracking-wider">REF. 41.8719° N · 87.6602° W</span>
+</div>
+<!-- Right Metadata: Edition Stamp & Day/Night Toggle -->
+<div class="flex items-center gap-space-lg mt-space-md md:mt-0">
+<span class="hidden sm:inline-block font-label-sm text-label-sm text-[#78756E] tracking-widest uppercase">
+        UNCOATED LINEN EDITION
+      </span>
+<!-- Mode Segmented Control -->
+<div class="flex items-center bg-[#201E1A] border border-[#33302A] p-0.5 rounded transition-colors duration-200">
+<button aria-label="Activate light paper mode" class="flex items-center justify-center w-7 h-7 rounded transition-all duration-200 text-[#78756E] hover:text-[#9E9B91]" id="theme-light-btn" type="button">
+<span class="material-symbols-outlined text-[16px]">light_mode</span>
+</button>
+<button aria-label="Activate dark espresso mode" class="flex items-center justify-center w-7 h-7 rounded transition-all duration-200 bg-[#33302A] text-[#F5F4ED] shadow-sm" id="theme-dark-btn" type="button">
+<span class="material-symbols-outlined text-[16px]">dark_mode</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Progress Stepper Track -->
+<div class="flex flex-col gap-space-xs mb-space-xl">
+<div class="flex items-center gap-space-sm max-w-xs">
+<div class="h-1 flex-1 bg-[#D97757] rounded"></div>
+<div class="h-1 flex-1 bg-[#2C2924] rounded"></div>
+<div class="h-1 flex-1 bg-[#2C2924] rounded"></div>
+</div>
+<div class="flex justify-between items-center max-w-xs pt-1">
+<span class="font-label-sm text-label-sm tracking-widest uppercase text-[#78756E]">SEQUENCE 01 / 03</span>
+<span class="font-label-sm text-label-sm tracking-wider text-[#78756E]">33.3% COMPLETED</span>
+</div>
+</div>
+<!-- Asymmetric Editorial Main Grid (7 Col Main, 1 Col Spacer, 4 Col Annotation Margin) -->
+<div class="gap-y-space-xl lg:gap-x-gutter mb-space-xl">
+<!-- Primary Narrative/Question Column -->
+<div class="flex flex-col justify-between">
+<div>
+<!-- Section Kicker -->
+<div class="flex items-center gap-space-xs mb-space-md">
+<span class="inline-block w-1.5 h-1.5 rounded-full bg-[#D97757]"></span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-[#D97757] font-medium">
+            QUESTION I — LOGIC MATRIX
+          </span>
+</div>
+<!-- Display Headline / Problem Statement -->
+<h1 class="font-display-md text-display-md text-[#F5F4ED] tracking-tight leading-tight mb-space-lg">
+          A sequence follows a hidden rule: 2, 6, 12, 20, 30 ... What comes next?
+        </h1>
+<!-- Contextual Subtitle / Formulation Note -->
+<p class="font-body-lg text-body-lg text-[#9E9B91] max-w-xl leading-relaxed mb-space-xl">
+          Determine the underlying progression governing the mathematical expansion. Enter the precise scalar integer solution to validate the matrix postulate.
+        </p>
+<!-- Interactive Diagnostic Form -->
+<form class="flex flex-col max-w-md w-full" id="diagnostic-form" onsubmit="return false;">
+<div class="flex flex-col mb-space-sm">
+<label class="font-label-sm text-label-sm uppercase tracking-widest text-[#78756E] mb-1" for="sequence-answer">
+              Your answer
+            </label>
+<div class="relative flex items-center">
+<input autocomplete="off" class="w-full bg-[#22201C] border border-[#38352F] text-[#F5F4ED] font-headline-md text-headline-md px-space-md py-space-sm rounded transition-all duration-200 placeholder:text-[#6B6861] shadow-sm focus:outline-none focus:border-[#D97757] focus:ring-1 focus:ring-[#D97757]" id="sequence-answer" placeholder="Enter integer or proof..." type="text">
+<span class="hidden absolute right-3 material-symbols-outlined animate-spin text-[#78756E] text-[20px]" id="validation-spinner">
+                progress_activity
+              </span>
+</div>
+</div>
+<!-- Wrong-Answer Dynamic Feedback Banner -->
+<div class="flex items-center gap-space-xs text-[#E07A5F] py-1.5 transition-all duration-200 opacity-100 mb-space-md" id="error-feedback">
+<span class="material-symbols-outlined text-[16px] text-[#E07A5F]">info</span>
+<span class="font-body-sm text-body-sm font-medium">Not quite. Try again.</span>
+</div>
+<!-- Success Dynamic Feedback Banner (Hidden Initially) -->
+<div class="hidden items-center gap-space-xs text-[#D97757] py-1.5 transition-all duration-200 mb-space-md" id="success-feedback">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span class="font-body-sm text-body-sm font-medium">Postulate verified: 42 (n² + n). Sequence unlocked.</span>
+</div>
+<!-- Form Action Bar -->
+<div class="flex flex-wrap items-center gap-space-md mt-space-xs">
+<button class="inline-flex items-center justify-center gap-space-xs bg-[#D97757] text-[#FFFFFF] font-label-md text-label-md uppercase tracking-wider px-space-lg py-3 rounded shadow-sm hover:brightness-105 active:translate-y-0.5 active:shadow-none transition-all duration-150 cursor-pointer" id="submit-btn" type="submit">
+<span class="">Submit</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+<span class="font-label-sm text-label-sm text-[#78756E] tracking-widest uppercase">
+              PRESS [ENTER] TO VALIDATE
+            </span>
+</div>
+</form>
+</div>
+</div>
+<!-- Right Margin: Marginalia Ledger & Editorial Reference -->
+
+</div>
+<!-- Bottom Folio Footer -->
+<footer class="flex flex-col sm:flex-row items-center justify-between gap-y-space-sm pt-space-lg mt-auto text-[#78756E] border-t border-[#24221E] transition-colors duration-300">
+<div class="flex items-center gap-space-md">
+<span class="font-label-sm text-label-sm tracking-widest uppercase text-[#F5F4ED] font-medium">P. 02 — THE DIAGNOSTIC</span>
+<span class="font-label-sm text-label-sm tracking-wider text-[#78756E] opacity-70">MONOGRAPH PRESS © MMXXV</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="inline-block w-2 h-2 rounded-full bg-[#D97757] animate-pulse"></span>
+<span class="font-label-sm text-label-sm tracking-widest uppercase text-[#F5F4ED] font-medium" id="ledger-status">
+        STATUS: AWAITING INPUT
+      </span>
+</div>
+</footer>
+</div>
+<script>
+  (function() {
+    // Mode switcher toggle
+    const lightBtn = document.getElementById('theme-light-btn');
+    const darkBtn = document.getElementById('theme-dark-btn');
+
+    if (lightBtn && darkBtn) {
+      lightBtn.addEventListener('click', () => {
+        lightBtn.classList.add('bg-[#33302A]', 'text-[#F5F4ED]', 'shadow-sm');
+        lightBtn.classList.remove('text-[#78756E]');
+        darkBtn.classList.remove('bg-[#33302A]', 'text-[#F5F4ED]', 'shadow-sm');
+        darkBtn.classList.add('text-[#78756E]');
+      });
+      darkBtn.addEventListener('click', () => {
+        darkBtn.classList.add('bg-[#33302A]', 'text-[#F5F4ED]', 'shadow-sm');
+        darkBtn.classList.remove('text-[#78756E]');
+        lightBtn.classList.remove('bg-[#33302A]', 'text-[#F5F4ED]', 'shadow-sm');
+        lightBtn.classList.add('text-[#78756E]');
+      });
+    }
+
+    // Chronometer ticker logic
+    let totalSeconds = 74; // 01:14
+    const timerDisplay = document.getElementById('timer-display');
+    const timerBar = document.getElementById('timer-bar');
+
+    setInterval(() => {
+      totalSeconds++;
+      const mins = String(Math.floor(totalSeconds / 60)).padStart(2, '0');
+      const secs = String(totalSeconds % 60).padStart(2, '0');
+      if (timerDisplay) {
+        timerDisplay.textContent = `${mins}:${secs}`;
+      }
+      if (timerBar) {
+        const percentage = Math.min(100, Math.round((totalSeconds / 180) * 100));
+        timerBar.style.width = `${percentage}%`;
+      }
+    }, 1000);
+
+    // Form logic with tactile submission simulation
+    const form = document.getElementById('diagnostic-form');
+    const input = document.getElementById('sequence-answer');
+    const errorEl = document.getElementById('error-feedback');
+    const successEl = document.getElementById('success-feedback');
+    const statusEl = document.getElementById('ledger-status');
+    const spinner = document.getElementById('validation-spinner');
+
+    function evaluateAnswer() {
+      const val = input.value.trim();
+      if (!val) return;
+
+      if (spinner) spinner.classList.remove('hidden');
+      if (statusEl) statusEl.textContent = 'STATUS: VALIDATING POSTULATE...';
+
+      setTimeout(() => {
+        if (spinner) spinner.classList.add('hidden');
+        if (val === '42') {
+          if (errorEl) errorEl.classList.add('hidden');
+          if (successEl) successEl.classList.remove('hidden');
+          if (statusEl) statusEl.textContent = 'STATUS: POSTULATE ACCEPTED';
+        } else {
+          if (successEl) successEl.classList.add('hidden');
+          if (errorEl) {
+            errorEl.classList.remove('hidden');
+            errorEl.innerHTML = '<span class="material-symbols-outlined text-[16px] text-[#E07A5F]">info</span><span class="font-body-sm text-body-sm font-medium">Not quite. Try again.</span>';
+          }
+          if (statusEl) statusEl.textContent = 'STATUS: CADENCE DISCREPANCY';
+        }
+      }, 350);
+    }
+
+    if (form) {
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        evaluateAnswer();
+      });
+    }
+
+    if (input) {
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          evaluateAnswer();
+        }
+      });
+    }
+  })();
+</script></main>
+
+
+<script src="toggle.js"></script>
+</body></html>

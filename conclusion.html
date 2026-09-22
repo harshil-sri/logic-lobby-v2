@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>
+@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}
+::-webkit-scrollbar{display:none;}
+@keyframes glowBloom {
+  0% { transform: scale(0.85); opacity: 0.3; }
+  100% { transform: scale(1.15); opacity: 0.9; }
+}
+.animate-glow-bloom {
+  animation: glowBloom 3s ease-out forwards;
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.anim-delay-0 { animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+.anim-delay-1 { animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards; }
+.anim-delay-2 { animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 1.0s forwards; }
+.anim-delay-3 { animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 1.3s forwards; }
+</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"error":"#ba1a1a","error-container":"#ffdad6","on-secondary-fixed":"#1e1b17","on-tertiary-fixed":"#1c1c17","surface-container-high":"#e9e8e1","primary":"#99462a","inverse-surface":"#30312c","inverse-primary":"#ffb59e","tertiary-fixed":"#e5e2da","on-error":"#ffffff","background":"#fbf9f2","on-secondary-container":"#66625c","on-tertiary":"#ffffff","surface-container-low":"#f5f4ed","on-primary-fixed":"#390b00","surface-dim":"#dbdad3","primary-fixed-dim":"#ffb59e","outline":"#88726c","on-secondary":"#ffffff","surface-bright":"#fbf9f2","on-error-container":"#93000a","secondary-fixed":"#e8e1da","on-surface":"#1b1c18","on-secondary-fixed-variant":"#4a4641","on-surface-variant":"#55433d","secondary":"#625e58","secondary-container":"#e5dfd7","surface-container-lowest":"#ffffff","on-primary":"#ffffff","outline-variant":"#dbc1b9","surface-tint":"#99462a","on-primary-fixed-variant":"#7a2f15","tertiary":"#5f5f58","inverse-on-surface":"#f2f1ea","surface-variant":"#e3e3dc","on-primary-container":"#541400","surface-container":"#efeee7","on-background":"#1b1c18","surface":"#fbf9f2","secondary-fixed-dim":"#ccc5be","primary-container":"#d97757","on-tertiary-container":"#2b2b26","primary-fixed":"#ffdbd0","tertiary-fixed-dim":"#c8c6bf","on-tertiary-fixed-variant":"#474741","surface-container-highest":"#e3e3dc","tertiary-container":"#93928b"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"space-md":"1rem","space-xs":"0.25rem","margin-mobile":"1.25rem","space-sm":"0.5rem","space-xl":"3rem","margin":"3.5rem","gutter":"1.5rem","gutter-mobile":"1rem","space-lg":"1.75rem"},fontFamily:{"serif":["Newsreader","Georgia","serif"],"sans":["Outfit","sans-serif"],"display-lg":["Newsreader","Georgia","serif"],"display-lg-mobile":["Newsreader","Georgia","serif"],"label-sm":["Outfit","sans-serif"],"label-md":["Outfit","sans-serif"],"headline-md":["Outfit","sans-serif"],"display-md-mobile":["Newsreader","Georgia","serif"],"body-md":["Outfit","sans-serif"],"display-md":["Newsreader","Georgia","serif"],"body-sm":["Outfit","sans-serif"],"headline-sm":["Outfit","sans-serif"],"headline-lg":["Newsreader","Georgia","serif"],"body-lg":["Outfit","sans-serif"]}}}}</script></head><body class="bg-[#FBF9F2] dark:bg-[#181715] font-sans text-on-surface dark:text-[#EAE7E1] antialiased transition-colors duration-300 min-h-screen flex flex-col"><header class="fixed top-0 w-full z-50 bg-[#FBF9F2]/90 dark:bg-[#181715]/90 backdrop-blur-xl border-b border-[#E6E2D8] dark:border-[#2C2924] shadow-[0_1px_8px_rgba(46,43,38,0.04)]"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between"><div class="flex items-center gap-6"><div class="flex flex-col"><div class="flex items-center gap-2"><span class="text-[17px] tracking-tight text-[#181715] dark:text-[#F2EFE9] font-bold font-sans">CS 101 // LOGIC LOBBY</span></div><span class="text-[11px] uppercase tracking-widest text-[#78726A] dark:text-[#A8A196] font-medium">Completion Protocol</span></div><div class="h-6 w-px bg-[#DCD8CD] dark:bg-[#33302B] hidden sm:block"></div><nav class="hidden md:flex items-center gap-2" data-active-classes="bg-[#D97757] text-white font-medium rounded-lg"><a aria-current="page" class="px-3.5 py-1.5 uppercase text-[12px] tracking-wider transition-colors bg-[#D97757] text-white font-medium rounded-lg shadow-sm" data-path="overview" href="#">Overview</a><a class="px-3 py-1.5 text-[12px] uppercase tracking-wider text-[#78726A] dark:text-[#A8A196] hover:text-[#181715] dark:hover:text-white transition-colors" data-path="dilemmas" href="#">Dilemmas</a><a class="px-3 py-1.5 text-[12px] uppercase tracking-wider text-[#78726A] dark:text-[#A8A196] hover:text-[#181715] dark:hover:text-white transition-colors" data-path="scavenger-index" href="#">Scavenger Index</a><a class="px-3 py-1.5 text-[12px] uppercase tracking-wider text-[#78726A] dark:text-[#A8A196] hover:text-[#181715] dark:hover:text-white transition-colors" data-path="verification-terminal" href="#">Verification Terminal</a></nav></div><div class="flex items-center gap-4"><div class="hidden xl:flex items-center gap-2 px-3 py-1 rounded bg-[#EFECE3] dark:bg-[#252320]"><span class="w-1.5 h-1.5 rounded-full bg-[#D97757] animate-pulse"></span><span class="text-[11px] uppercase tracking-wider text-[#78726A] dark:text-[#A8A196] font-medium">STAGE: COMPLETE // FINAL VERIFICATION</span></div><span class="hidden sm:inline-block px-2.5 py-1 rounded bg-[#EFECE3] dark:bg-[#252320] text-[11px] uppercase tracking-wider text-[#78726A] dark:text-[#A8A196] font-medium">FRESHMAN EDITION</span><button aria-label="Toggle Day/Night Display" class="w-9 h-9 rounded-lg bg-[#EFECE3] dark:bg-[#252320] hover:bg-[#E5E1D6] dark:hover:bg-[#322F2A] flex items-center justify-center text-[#181715] dark:text-[#F2EFE9] transition-colors shadow-sm" type="button"><span class="material-symbols-outlined text-[18px]">light_mode</span></button><div class="w-8 h-8 rounded-full bg-[#D97757] text-white flex items-center justify-center font-medium shadow-sm"><span class="material-symbols-outlined text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-[#FBF9F2] dark:bg-[#181715] min-h-[calc(100vh-80px)] flex-1 flex flex-col transition-colors duration-300"><div class="flex-1 flex flex-col w-full relative overflow-hidden justify-center items-center py-12 lg:py-16">
+<!-- Ambient Celebratory Bloom Background -->
+<div class="pointer-events-none absolute inset-0 flex items-start justify-center overflow-hidden">
+<div class="w-[850px] h-[700px] rounded-full animate-glow-bloom transition-all duration-1000" style="background: radial-gradient(circle at 50% 30%, rgba(217,119,87,0.18) 0%, rgba(245,244,237,0) 65%);"></div>
+</div>
+<div class="w-full max-w-5xl mx-auto px-6 lg:px-12 flex flex-col items-center relative z-10">
+<!-- Archival Seal Header Chip -->
+<div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-[#EFECE3]/90 dark:bg-[#252320]/90 border border-[#E0DCCE] dark:border-[#35322C] shadow-sm mb-6">
+<span class="w-1.5 h-1.5 rounded-full bg-[#D97757]"></span>
+<span class="text-[11px] uppercase tracking-widest text-[#78726A] dark:text-[#ABA499] font-medium">Archival Seal • Protocol Concluded</span>
+</div>
+<!-- Sequential Typography Entrance -->
+<div class="text-center max-w-2xl mx-auto">
+<!-- Headline 1 -->
+<h1 class="text-5xl md:text-6xl font-serif text-[#181715] dark:text-[#F7F5F0] font-semibold tracking-tight opacity-0 anim-delay-0">
+      You made it.
+    </h1>
+<!-- Headline 2 -->
+<p class="text-2xl md:text-3xl font-serif italic text-[#D97757] tracking-normal mt-2 opacity-0 anim-delay-1">
+      This was Logic Lobby.
+    </p>
+<!-- Reflective Paragraph -->
+<p class="text-base md:text-lg text-[#524E48] dark:text-[#BDB8AE] max-w-xl mx-auto mt-6 leading-relaxed font-sans opacity-0 anim-delay-2">
+      Some of what you just solved, AI could've done for you. Some of it, nothing could — except you.
+    </p>
+</div>
+<!-- Student Completion Monograph Card -->
+<div class="w-full max-w-lg mt-10 opacity-0 anim-delay-3">
+<div class="border border-[#E6E2D8] dark:border-[#2F2C27] bg-white/90 dark:bg-[#1E1D1A]/90 backdrop-blur-md rounded-xl p-8 sm:p-10 shadow-[0_4px_30px_rgba(40,36,32,0.06)] relative transition-all duration-300" id="monograph-container">
+<!-- FORM STAGE -->
+<div class="transition-opacity duration-300" id="form-stage">
+<div class="mb-6">
+<div class="flex items-center justify-between">
+<span class="text-[11px] uppercase tracking-wider text-[#D97757] font-semibold font-sans">Freshman Ledger Registry</span>
+<span class="text-[11px] uppercase tracking-wider text-[#938E84] dark:text-[#7A756D] font-mono">SEC // 04</span>
+</div>
+<h2 class="text-xl font-serif font-semibold text-[#181715] dark:text-[#F5F2EC] mt-1">Record your credentials</h2>
+<p class="text-xs text-[#78726A] dark:text-[#A8A196] mt-0.5">Submit to formalize your milestone in the department monograph ledger.</p>
+</div>
+<form class="space-y-4" id="completion-form" onsubmit="event.preventDefault(); handleFormSubmit();">
+<div class="flex flex-col gap-1.5">
+<label class="text-xs uppercase tracking-wider text-[#635E56] dark:text-[#ABA499] font-medium" for="student-name">Full Name</label>
+<input class="w-full h-11 px-3.5 bg-[#FAF9F5] dark:bg-[#252320] border border-[#E0DCCE] dark:border-[#38342E] text-[#181715] dark:text-[#F5F2EC] placeholder:text-[#A8A298] rounded-lg focus:outline-none focus:border-[#D97757] focus:ring-2 focus:ring-[#D97757]/20 transition-all font-sans text-sm" id="student-name" placeholder="e.g. Maya Chen" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="text-xs uppercase tracking-wider text-[#635E56] dark:text-[#ABA499] font-medium" for="student-email">Email</label>
+<input class="w-full h-11 px-3.5 bg-[#FAF9F5] dark:bg-[#252320] border border-[#E0DCCE] dark:border-[#38342E] text-[#181715] dark:text-[#F5F2EC] placeholder:text-[#A8A298] rounded-lg focus:outline-none focus:border-[#D97757] focus:ring-2 focus:ring-[#D97757]/20 transition-all font-sans text-sm" id="student-email" placeholder="e.g. m.chen@campus.edu" required="" type="email"/>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="text-xs uppercase tracking-wider text-[#635E56] dark:text-[#ABA499] font-medium" for="enrollment-num">Enrollment Number</label>
+<input class="w-full h-11 px-3.5 bg-[#FAF9F5] dark:bg-[#252320] border border-[#E0DCCE] dark:border-[#38342E] text-[#181715] dark:text-[#F5F2EC] placeholder:text-[#A8A298] rounded-lg focus:outline-none focus:border-[#D97757] focus:ring-2 focus:ring-[#D97757]/20 transition-all uppercase font-mono text-sm tracking-wider" id="enrollment-num" pattern="^[A-Za-z0-9-]+$" placeholder="e.g. 2024-CS-0149" required="" type="text"/>
+</div>
+<div class="pt-2">
+<button class="bg-[#D97757] hover:bg-[#C26242] text-white font-medium py-3 px-8 rounded-lg w-full transition-all shadow-md hover:shadow-lg active:scale-[0.99] flex items-center justify-center gap-2 text-sm tracking-wide" id="submit-btn" type="submit">
+<span>Submit</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</form>
+</div>
+<!-- CONFIRMATION / SUCCESS STAGE -->
+<div class="hidden flex-col items-center text-center py-4" id="success-stage">
+<!-- SVG Checkmark Glyph Animation -->
+<div class="relative w-20 h-20 mb-5 flex items-center justify-center">
+<svg class="w-20 h-20" fill="none" viewbox="0 0 80 80">
+<circle class="transition-all duration-700 ease-out" cx="40" cy="40" id="check-circle" r="36" stroke="#D97757" stroke-dasharray="230" stroke-dashoffset="230" stroke-width="2.5"></circle>
+<path class="transition-all duration-500 delay-500 ease-out" d="M26 41.5L35.5 51L54 29" id="check-tick" stroke="#99462A" stroke-dasharray="50" stroke-dashoffset="50" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"></path>
+</svg>
+</div>
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FAF5F2] dark:bg-[#2A231F] border border-[#F0D5CA] dark:border-[#52352B] mb-3">
+<span class="w-1.5 h-1.5 rounded-full bg-[#D97757]"></span>
+<span class="text-[11px] uppercase tracking-widest text-[#D97757] font-semibold font-mono" id="echoed-badge">VERIFIED // #8429-CS</span>
+</div>
+<h3 class="text-2xl font-serif font-semibold text-[#181715] dark:text-[#FAF8F5] tracking-tight" id="echoed-name">
+          Confirmed, Maya Chen
+        </h3>
+<p class="text-base text-[#D97757] font-serif italic mt-2">
+          Welcome to VIPS. We'll be in touch.
+        </p>
+<!-- Monograph Metadata Box -->
+<div class="w-full bg-[#FAF9F5] dark:bg-[#23211D] border border-[#EBE7DC] dark:border-[#2E2B25] rounded-lg p-4 my-6 text-left space-y-2">
+<div class="flex justify-between items-center text-xs">
+<span class="text-[#78726A] dark:text-[#9E978C] font-mono uppercase">Enrollment ID</span>
+<span class="font-mono text-[#181715] dark:text-[#F0ECE1] font-semibold uppercase tracking-wider" id="echoed-id">2024-CS-0149</span>
+</div>
+<div class="flex justify-between items-center text-xs">
+<span class="text-[#78726A] dark:text-[#9E978C] font-mono uppercase">Recorded Email</span>
+<span class="font-mono text-[#181715] dark:text-[#F0ECE1] truncate max-w-[200px]" id="echoed-email">m.chen@campus.edu</span>
+</div>
+<div class="flex justify-between items-center text-xs">
+<span class="text-[#78726A] dark:text-[#9E978C] font-mono uppercase">Timestamp</span>
+<span class="font-mono text-[#181715] dark:text-[#F0ECE1]" id="echoed-timestamp">2024-10-31 23:59:59 UTC</span>
+</div>
+</div>
+<button class="inline-flex items-center gap-1.5 text-[#78726A] dark:text-[#ABA499] hover:text-[#D97757] dark:hover:text-[#D97757] transition-colors text-xs uppercase tracking-wider underline underline-offset-4" onclick="resetFormState()" type="button">
+<span class="material-symbols-outlined text-[15px]">edit</span>
+<span>Edit submission</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Bottom Guild Note -->
+<div class="w-full max-w-lg mt-8 pt-4 flex items-center justify-between text-xs text-[#78726A] dark:text-[#9E978C] font-mono">
+<span>VIPS Computing Guild</span>
+<span class="text-[#D97757]">• STATUS: VERIFIED</span>
+</div>
+</div>
+</div>
+<script>
+  function handleFormSubmit() {
+    const nameInput = document.getElementById('student-name');
+    const emailInput = document.getElementById('student-email');
+    const enrollInput = document.getElementById('enrollment-num');
+
+    const name = nameInput.value.trim();
+    const email = emailInput.value.trim();
+    const enroll = enrollInput.value.trim();
+
+    if (!name || !email || !enroll) return;
+
+    const formStage = document.getElementById('form-stage');
+    const successStage = document.getElementById('success-stage');
+
+    formStage.classList.add('opacity-0');
+    setTimeout(() => {
+      formStage.classList.add('hidden');
+      successStage.classList.remove('hidden');
+      successStage.classList.add('flex', 'opacity-0');
+
+      document.getElementById('echoed-name').textContent = 'Confirmed, ' + name;
+      document.getElementById('echoed-id').textContent = enroll.toUpperCase();
+      document.getElementById('echoed-email').textContent = email;
+
+      const randomSuffix = Math.floor(1000 + Math.random() * 9000);
+      document.getElementById('echoed-badge').textContent = 'VERIFIED // #' + randomSuffix + '-CS';
+
+      const now = new Date();
+      const timeString = now.toISOString().replace('T', ' ').substring(0, 19) + ' UTC';
+      document.getElementById('echoed-timestamp').textContent = timeString;
+
+      requestAnimationFrame(() => {
+        successStage.classList.remove('opacity-0');
+        successStage.classList.add('transition-opacity', 'duration-500');
+
+        const circle = document.getElementById('check-circle');
+        const tick = document.getElementById('check-tick');
+        if (circle) circle.style.strokeDashoffset = '0';
+        if (tick) tick.style.strokeDashoffset = '0';
+      });
+    }, 250);
+  }
+
+  function resetFormState() {
+    const formStage = document.getElementById('form-stage');
+    const successStage = document.getElementById('success-stage');
+    const circle = document.getElementById('check-circle');
+    const tick = document.getElementById('check-tick');
+
+    successStage.classList.add('opacity-0');
+    setTimeout(() => {
+      successStage.classList.remove('flex');
+      successStage.classList.add('hidden');
+      formStage.classList.remove('hidden');
+      formStage.classList.remove('opacity-0');
+
+      if (circle) circle.style.strokeDashoffset = '230';
+      if (tick) tick.style.strokeDashoffset = '50';
+    }, 250);
+  }
+
+  // Theme Toggle: Ivory (#FBF9F2) <-> Deep Espresso (#181715)
+  (function initThemeToggle() {
+    const toggleBtn = document.querySelector('button[aria-label="Toggle Day/Night Display"]');
+    if (toggleBtn && !toggleBtn.__bound) {
+      toggleBtn.__bound = true;
+      toggleBtn.addEventListener('click', () => {
+        document.documentElement.classList.toggle('dark');
+        const icon = toggleBtn.querySelector('.material-symbols-outlined');
+        if (icon) {
+          icon.textContent = document.documentElement.classList.contains('dark') ? 'dark_mode' : 'light_mode';
+        }
+      });
+    }
+  })();
+</script></main><footer class="w-full bg-[#F5F4ED] dark:bg-[#151412] border-t border-[#E6E2D8] dark:border-[#2C2924] mt-auto transition-colors duration-300"><div class="max-w-7xl mx-auto px-6 lg:px-12 py-8 flex flex-col sm:flex-row items-center justify-between gap-4"><div class="flex flex-col sm:flex-row items-center gap-3 text-center sm:text-left"><span class="text-[12px] uppercase tracking-wider text-[#78726A] dark:text-[#A8A196]">© 2024 CS 101 DEPT OF COMPUTING // INDEPENDENT MONOGRAPH ARCHIVE</span><span class="hidden sm:inline text-[#78726A] dark:text-[#A8A196]">•</span><span class="text-[12px] text-[#78726A] dark:text-[#A8A196]">ALL SCRIPTS SIGNED &amp; SEALED</span></div><div class="flex items-center gap-2 bg-[#FBF9F2] dark:bg-[#1E1D1A] border border-[#E6E2D8] dark:border-[#2F2C27] px-3 py-1.5 rounded"><span class="text-[11px] uppercase tracking-widest text-[#78726A] dark:text-[#A8A196]">PROTOCOL STAMP:</span><span class="text-[11px] font-medium text-[#D97757]">2024-10-31T23:59:59Z // VERIFIED</span></div></div></footer>
+<script src="toggle.js"></script>
+</body></html>

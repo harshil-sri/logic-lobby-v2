@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Physical Poster — The Final Cipher</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Outfit:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-ivory: #F5F4ED;
+      --charcoal: #181715;
+      --charcoal-muted: #5C5850;
+      --charcoal-light: #8E8A80;
+      --terracotta: #D97757;
+      --terracotta-soft: rgba(217, 119, 87, 0.12);
+      --border-delicate: rgba(24, 23, 21, 0.12);
+    }
+    body {
+      background-color: #E8E6DD;
+      font-family: 'Outfit', sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: var(--charcoal);
+    }
+    .poster-sheet {
+      width: 794px; /* A4/Poster portrait proportion at 96 DPI scale */
+      height: 1123px;
+      background-color: var(--bg-ivory);
+      position: relative;
+      box-shadow: 0 25px 60px -15px rgba(24, 23, 21, 0.22), 0 0 1px rgba(24, 23, 21, 0.2);
+      padding: 64px 56px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+    /* Subtle tactile print paper grain texture overlay */
+    .poster-sheet::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      pointer-events: none;
+      background-image: radial-gradient(rgba(24, 23, 21, 0.04) 1px, transparent 1px);
+      background-size: 16px 16px;
+      opacity: 0.7;
+    }
+    .font-mono-code {
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .font-editorial {
+      font-family: 'Playfair Display', serif;
+    }
+    .registration-mark {
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      opacity: 0.35;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Physical Poster Container (Print proportions) -->
+  <div class="poster-sheet relative">
+    
+    <!-- Print registration & trim marks in four corners for authentic editorial physical print feel -->
+    <div class="registration-mark top-6 left-6 border-t border-l border-[#181715]/40"></div>
+    <div class="registration-mark top-6 right-6 border-t border-r border-[#181715]/40"></div>
+    <div class="registration-mark bottom-6 left-6 border-b border-l border-[#181715]/40"></div>
+    <div class="registration-mark bottom-6 right-6 border-b border-r border-[#181715]/40"></div>
+
+    <!-- HEADER / TOP FOLIO -->
+    <header class="relative z-10">
+      <div class="flex items-start justify-between border-b border-[#181715]/15 pb-6">
+        <div>
+          <span class="font-mono-code text-[11px] tracking-[0.25em] text-[#181715]/60 uppercase block mb-1">
+            FIELD ARTIFACT // STAGE 04
+          </span>
+          <h1 class="text-sm font-medium tracking-[0.18em] text-[#181715] uppercase">
+            PHYSICAL VERIFICATION PROTOCOL
+          </h1>
+        </div>
+
+        <div class="text-right flex items-center gap-4">
+          <div class="font-mono-code text-[10px] text-[#181715]/50 tracking-wider leading-tight">
+            <div>FOLIO: 04-A</div>
+            <div>LAT: 41°52'18.8"N</div>
+          </div>
+          <!-- Single terracotta geometric anchor mark -->
+          <div class="w-2.5 h-2.5 bg-[#D97757]"></div>
+        </div>
+      </div>
+
+      <!-- Terracotta Accent Hairline Divider -->
+      <div class="w-full flex items-center mt-6">
+        <div class="w-16 h-[2px] bg-[#D97757]"></div>
+        <div class="flex-1 h-[1px] bg-[#181715]/10"></div>
+      </div>
+    </header>
+
+    <!-- MAIN BODY: ASYMMETRICAL CIPHER COMPOSITION -->
+    <main class="relative z-10 flex-1 flex flex-col justify-center my-8">
+      
+      <!-- Upper Context Sub-headline -->
+      <div class="mb-10">
+        <p class="font-mono-code text-[11px] tracking-[0.2em] text-[#D97757] uppercase font-semibold mb-2">
+          // NOTICE TO THOSE STANDING BEFORE THIS WALL
+        </p>
+        <p class="text-2xl font-light tracking-tight text-[#181715] max-w-lg leading-snug">
+          If you have arrived here, you have traversed the digital sequence. The final proof exists in physical space.
+        </p>
+      </div>
+
+      <!-- Central Cipher Artifact Box (Asymmetrical, High Contrast Monograph) -->
+      <div class="relative bg-white/60 border border-[#181715]/20 p-8 sm:p-10 my-4 backdrop-blur-[2px]">
+        
+        <!-- Subtle corner notch marks -->
+        <div class="absolute -top-[1px] -left-[1px] w-3 h-3 border-t-2 border-l-2 border-[#D97757]"></div>
+        <div class="absolute -bottom-[1px] -right-[1px] w-3 h-3 border-b-2 border-r-2 border-[#D97757]"></div>
+
+        <div class="flex items-center justify-between mb-6 pb-3 border-b border-[#181715]/10">
+          <span class="font-mono-code text-[10px] tracking-[0.25em] text-[#181715]/60 uppercase">
+            [CIPHER MATRIX :: TERMINAL 04]
+          </span>
+          <span class="font-mono-code text-[10px] tracking-[0.15em] text-[#D97757] uppercase">
+            SEC_LEVEL // 01
+          </span>
+        </div>
+
+        <!-- CIPHER CONTENT PLACEHOLDER -->
+        <div class="py-6">
+          <div class="font-mono-code text-xl sm:text-2xl md:text-[26px] tracking-[0.14em] text-[#181715] font-normal leading-relaxed break-all">
+            <span class="text-[#D97757] font-semibold select-none">&gt;</span> [PLACEHOLDER: CRYPTIC MESSAGE / CIPHER LEADING TO FINAL ANSWER]
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-dashed border-[#181715]/15 grid grid-cols-12 gap-4 items-center">
+            <div class="col-span-8">
+              <div class="font-mono-code text-[11px] text-[#181715]/80 leading-relaxed">
+                <span class="text-[#D97757] font-medium">KEY EXTRACTION:</span> Count the offset between the room number found in Step 3 and the third hex character above. Combine with your initial diagnostic scalar.
+              </div>
+            </div>
+            <div class="col-span-4 text-right">
+              <div class="font-mono-code text-[10px] text-[#181715]/40 tracking-widest uppercase">
+                FORMULA: <span class="text-[#181715]/80 font-medium">Ω = (Q3_LOC ⊕ KEY)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Additional minimal typographic guidance lines -->
+      <div class="mt-8 grid grid-cols-2 gap-8 text-[#5C5850]">
+        <div>
+          <span class="font-mono-code text-[10px] tracking-[0.2em] uppercase text-[#181715]/60 block mb-1">
+            OBSERVATION RULE
+          </span>
+          <p class="text-xs leading-relaxed">
+            Do not remove, deface, or displace this sheet. All solutions can be deduced by sight and logical synthesis alone.
+          </p>
+        </div>
+        <div>
+          <span class="font-mono-code text-[10px] tracking-[0.2em] uppercase text-[#181715]/60 block mb-1">
+            SUBMISSION
+          </span>
+          <p class="text-xs leading-relaxed">
+            Return to the proximity portal on your device once you have extracted the key string.
+          </p>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- FOOTER / PRINT METRICS & DIRECT DIRECTORY QR CODE -->
+    <footer class="relative z-10 pt-6 border-t border-[#181715]/15 flex items-end justify-between">
+      
+      <!-- Technical print legend & spec -->
+      <div class="space-y-1">
+        <div class="flex items-center gap-3">
+          <span class="font-mono-code text-[10px] tracking-[0.2em] text-[#181715] uppercase font-medium">
+            STAGE 04 PHYSICAL EXHIBIT
+          </span>
+          <span class="text-[#D97757] text-xs select-none">•</span>
+          <span class="font-mono-code text-[10px] text-[#181715]/60">
+            NON-COMMERCIAL / EDUCATIONAL STUDY
+          </span>
+        </div>
+        <p class="font-mono-code text-[9px] text-[#181715]/40 tracking-wider">
+          WARM IVORY 240GSM LINEN FINISH // UNBRANDED MONOGRAPH SPECIFICATION // EDITION OF 01
+        </p>
+      </div>
+
+      <!-- Minimal clean SVG QR code linking directly to Stage 4 Proximity Check -->
+      <div class="flex items-center gap-4 bg-white/70 p-3 border border-[#181715]/15">
+        <div class="text-right">
+          <span class="font-mono-code text-[9px] tracking-[0.18em] text-[#181715]/70 block uppercase font-medium">
+            DIGITAL PORTAL
+          </span>
+          <span class="font-mono-code text-[8px] text-[#D97757] tracking-wider block">
+            STAGE 4 CHECK-IN
+          </span>
+        </div>
+        
+        <!-- Clean vector QR code icon representation -->
+        <svg class="w-12 h-12 text-[#181715]" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+          <!-- Outer border -->
+          <rect x="2" y="2" width="44" height="44" rx="2" stroke="currentColor" stroke-opacity="0.2" fill="none" />
+          
+          <!-- Top Left Finder Pattern -->
+          <rect x="6" y="6" width="12" height="12" rx="1" fill="#181715" />
+          <rect x="8" y="8" width="8" height="8" fill="#F5F4ED" />
+          <rect x="10" y="10" width="4" height="4" fill="#181715" />
+
+          <!-- Top Right Finder Pattern -->
+          <rect x="30" y="6" width="12" height="12" rx="1" fill="#181715" />
+          <rect x="32" y="8" width="8" height="8" fill="#F5F4ED" />
+          <rect x="34" y="10" width="4" height="4" fill="#181715" />
+
+          <!-- Bottom Left Finder Pattern -->
+          <rect x="6" y="30" width="12" height="12" rx="1" fill="#181715" />
+          <rect x="8" y="32" width="8" height="8" fill="#F5F4ED" />
+          <rect x="10" y="34" width="4" height="4" fill="#181715" />
+
+          <!-- Geometric Data Modules (restrained QR pattern) -->
+          <rect x="22" y="7" width="4" height="3" fill="#181715" />
+          <rect x="22" y="14" width="4" height="4" fill="#D97757" />
+          <rect x="7" y="22" width="4" height="4" fill="#181715" />
+          <rect x="15" y="22" width="3" height="4" fill="#181715" />
+          <rect x="22" y="22" width="4" height="4" fill="#181715" />
+          <rect x="30" y="22" width="5" height="3" fill="#181715" />
+          <rect x="39" y="22" width="3" height="4" fill="#181715" />
+          
+          <rect x="22" y="30" width="3" height="6" fill="#181715" />
+          <rect x="29" y="30" width="4" height="4" fill="#181715" />
+          <rect x="37" y="30" width="5" height="3" fill="#D97757" />
+          <rect x="29" y="38" width="6" height="4" fill="#181715" />
+          <rect x="39" y="37" width="3" height="5" fill="#181715" />
+        </svg>
+      </div>
+
+    </footer>
+
+  </div>
+
+
+<script src="toggle.js"></script>
+</body>
+</html>
